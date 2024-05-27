@@ -11,7 +11,7 @@ import { Preloader } from "@/app/components/Preloader/Preloader";
 import { useState, useEffect } from "react";
 import { useStore } from "@/app/store/app-store";
 
-import Styles from "./Game.module.css";
+import Styles from "./game.module.css";
 
 export default function GamePage(props) {
   const [game, setGame] = useState(null);
